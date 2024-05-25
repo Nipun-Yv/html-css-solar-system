@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Solar System</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-image:url(./assets/images/Stars.jpg);
+                background-attachment:fixed;
+            }
+            .sun{
+                margin-top:-10px;
+                display:flex;
+            }
+            .mercury{
+                display:flex;
+            }
+            .venus{
+                display:flex;
+            }
+            .earth{
+                display:flex;
+            }
+            .mars{
+                display:flex;
+            }
+            .jupiter{
+                display:flex;
+            }
+            .saturn{
+                display:flex;
+            }
+            .uranus{
+                display:flex;
+            }
+            .neptune{
+                display:flex;
+            }
+            div>div{
+                flex:1;
+            }
+            .non-text{
+                padding-bottom:0%;
+            }
+            .sun>.non-text{
+                flex:2.5;
+            }
+            .mercury>.non-text{
+                flex:0.5
+            }
+            .venus>.non-text{
+                flex:0.8;
+            }
+            .earth>.non-text{
+                flex:1;
+            }
+            .mars>.non-text{
+                flex:0.8;
+            }
+            .jupiter>.non-text{
+                flex:2.3;
+            }
+            .saturn>.non-text{
+                flex:4.8;
+            }
+            .uranus>.non-text{
+                flex:1.7;
+            }
+            .neptune>.non-text{
+                flex:1.7;
+            }
+            .sun img{
+                height:100%;
+                width:100%;
+                border-radius:0%;
+            }
+            img{
+                height:100%;
+                width:100%;
+                border-radius:50%;
+                border:2px solid white;
+            }
+            h1{
+                color:white;
+                text-align:center;
+                text-transform:uppercase;
+                vertical-align:middle;
+            }
+            h3{
+                color:white;
+                text-align:center;
+            }
+            h2{
+                color:white;
+                text-align:center;
+                margin:20% 5% 15%;
+            }
+            .sedan-sc-regular {
+                font-family: "Sedan SC", serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sun">
+            <div><h1 class="sedan-sc-regular">The Solar System</h1></div>
+            <div class="non-text"><img style="border:0" src="./assets/images/Sun.png"/></div>
+            <div><h3 class="sedan-sc-regular">Click on the images to find out more</h3></div>
+        </div>
+        <div class="mercury">
+            <div><h2 style="text-align:right">Mercury</h2></div>
+            <div class="non-text"><a href="./public/Mercury.html"><img src="./assets/images/Mercury.png"/></a></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="venus">
+            <div></div>
+            <div></div>
+            <div class="non-text"><a href="./public/venus.html"><img src="./assets/images/Venus.png"/></a></div>
+            <div><h2 style="text-align:left"> Venus</h2></div>
+        </div>
+        <div class="earth">
+            <div class="non-text"><a href="./public/earth.html"><img src="./assets/images/Earth.png"/></a></div>
+            <div><h2 style="text-align:left"> Earth</h2></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="mars">
+            <div></div>
+            <div class="non-text"><a href="./public/mars.html"><img src="./assets/images/Mars.png"/></a></div>
+            <div><h2 style="text-align:left">Mars</h2></div>
+            <div></div>
+        </div>
+        <div class="jupiter">
+            <div></div>
+            <div></div>
+            <div class="non-text"><a href="./public/jupiter.html"><img src="./assets/images/Jupiter.png"/></a></div>
+            <div><h2 style="text-align:left"> Jupiter</h2></div>
+        </div>
+        <br/><br/>
+        <div class="saturn">
+            <div><h2 style="text-align:right"> Saturn</h2></div>
+            <div class="non-text"><a href="./public/saturn.html"><img style="border-radius:0%; border:0" src="./assets/images/Saturn.png"/></a></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="uranus">
+            <div></div>
+            <div></div>
+
+            <div class="non-text"><a href="./public/uranus.html"><img src="./assets/images/uranus.png"/></a></div>
+            <div><h2 style="text-align:left"> Uranus</h2></div>
+        </div>
+        <div class="neptune">
+            <div class="non-text"><a href="./public/neptune"><img src="./assets/images/Neptune.png"/></a></div>
+            <div><h2 style="text-align:left"> Neptune</h2></div>
+            <div></div>
+            <div></div>
+        </div>
+    </body>
+</html>
